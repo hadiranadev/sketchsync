@@ -1,0 +1,8 @@
+target/
+.vscode/
+*.class
+.DS_Store
+Thumbs.db
+.idea/
+gamestate.txt
+leaderboard.txt
