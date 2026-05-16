@@ -1,5 +1,12 @@
 # SketchSync
 
+## Project Note
+
+SketchSync was originally developed as a group project for a university course.  
+I had permission to publish this version in my personal portfolio.
+
+My main contributions included the Java Swing client interface, client-server connection flow, UI integration, and parts of the multiplayer game flow. The project has been cleaned up and presented here for portfolio purposes.
+
 > A real-time multiplayer draw-and-guess game built in Java.
 
 One player draws a secret word on a shared canvas while everyone else races to guess it in chat. Supports multiple simultaneous rooms, a free-draw Doodle mode, persistent leaderboards, and a full lobby system. Built with Java Swing and TCP sockets following CSCI2020U patterns.
