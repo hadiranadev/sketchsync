@@ -29,18 +29,23 @@ One player draws a secret word on a shared canvas while everyone else races to g
 <!-- Replace the line below with your actual screenshot after running the game -->
 <!-- ![SketchSync Screenshot](screenshot.png) -->
 
-> **TODO:** Add a screenshot before final submission.  
-> Run the game, take a screenshot, save it as `screenshot.png` in the repo root, and replace the comment above with:  
-> `![SketchSync Screenshot](screenshot.png)`
+> Attached below are the screenshots of the three main components of the project: Home Page, Lobby Room, and Doodle Board.
+> ### 1. Home Page 
+> ![SketchSync Home Page](HomePage.png)
+> ### 2. Lobby Room
+> ![SketchSync Lobby Room](LobbyRoom.png)
+> ### 3. Doodle Board
+> ![SketchSync Doodle Board](DoodleBoard.png)
 
 ---
 
 ## Video Demo
 
-> **TODO:** Record a 2–5 minute screen capture and paste the link below.  
-> Upload to YouTube (unlisted) or Google Drive, then replace this line with the URL.
+> Attached below is the shareable link for accessing the video demo of our project.
+> It covers all the 'Features Delivered' functions listed in CHARTER.md.
+> Please note that the demo includes two parts: Doodle Mode and Game Mode.
 
-**Demo link:** `[ADD LINK HERE]`
+**Demo link:** https://drive.google.com/file/d/1XWLn6ruR_vqw3NRqBBFja1h3ZI7tEqB8/view?usp=drive_link
 
 ---
 
@@ -99,7 +104,7 @@ The launcher screen appears — click **Settings** to set your username and the 
 - **Clear canvas** — clears locally first for instant feedback, then broadcasts to all
 
 ### Persistence
-- **Leaderboard** — all-time scores saved to `leaderboard.txt`; shown at game end as a dialog
+- **Leaderboard** — all-time scores saved to `leaderboard.txt`; shown at game end as a dialogue
 - **Game state** — current round, scores, and drawer saved to `gamestate.txt` after every event
 
 ### UX
@@ -249,7 +254,7 @@ private static final int PORT = 5000;
 ## AI & References
 
 ### AI Usage
-This project used **ChatGPT**, and **Microsoft Copilot** as development aids:
+This project used **ChatGPT** and **Microsoft Copilot** as development aids:
 - Debugging the `ObjectOutputStream` stream-header deadlock (flush ordering)
 - Identifying and fixing the OOS object-caching bug (`output.reset()`)
 - Refactoring `ServerMain` into `ServerMain` + `GameManager` + `RoomManager` + `Room`
